@@ -1,0 +1,208 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+body{ background-color: black; }
+
+/* Start Navbar-----------------*/
+
+.navbar{ background-color: black; }
+
+.navbar-logo{ color: #F8F8FF; text-decoration: none; font-weight: 600; font-size: 40px; padding-left: 30px; }
+
+.navbar .navbar-toggler{ background-color: #F8F8FF; }
+
+.nav-item{ color: #F8F8FF; font-size: 28px; }
+
+.nav-drop{ line-height: 41px; }
+
+.nav-item { justify-content: space-around; text-decoration: none; margin: 0 5px; margin-left: 25px; margin-right: 25px; }
+
+.navbar-nav .nav-item:hover{ color: yellow; }
+
+.navbar-nav .nav-item:active { color: gray; }
+
+.navbar-nav .dropdown-menu{ margin: 0 -20px; font-size: 20px; background-color: black; }
+
+.dropdown-menu .dropdown-item { color: #F8F8FF; margin-left: 10px; }
+
+.dropdown-menu .dropdown-item:hover{ color: yellow; background-color: transparent; }
+
+.dropdown-menu .dropdown-item:active { color: gray; }
+
+/*End Navbar -------------------------------*/
+
+/*Home Page -------------------------------*/
+
+#photo{ min-width: 100%; height: 100vh; }
+
+.animate__animated { color:#F8F8FF; font-size: 120px; display: flex; position: absolute; justify-content: right; text-align: right; padding-top: 150px; padding-left: 1000px; padding-right: 150px; bottom: 20%; right: 3%; }
+
+/* End Home Page -------------------------------*/
+
+
+/* Start About Me Page ------------------------*/
+
+.page { height: 100vh; font-size: x-large; color: black; background-color: #F8F8FF; padding-left: 30px; padding-top: 60px; }
+
+#about-me-page { background-color: #F8F8FF; }
+
+/* End About Me Page ------------------------*/
+
+
+/*Soft & Hard Skills -------------------------------*/
+
+#soft-skills-page, #hard-skills-page { background-color: #F8F8FF; }
+
+.soft-skills-page, .hard-skills-page { width: 100%; height: 100vh; }
+
+.hard-skills { padding: 1.5rem; color: black; cursor: pointer; padding-bottom: 1px; }
+
+.hard-skills h1 { font-size: 50px; padding-top: 10px; text-align: center; }
+
+.soft-skills h1 { font-size: 50px; padding-top: 10px; text-align: center; }
+
+.icon-style { width: 200px; height: 200px; position: relative; border-radius: 70px; background-color: black; display: flex; justify-content: center; align-items: center; }
+
+.icon-style:after { content: ""; position: absolute; top: 0; left: 0; width: 50px; background-color: rgba(100, 100, 100, 0.5); border-radius: 45px 0 0 45px; }
+
+.images { height: 200px; position: relative; border-radius: 65px; padding-bottom: 10px; }
+
+.column h3 { font-size: 25px; padding-top: 10px; margin: 1rem; }
+
+.column .html-css { margin-left: 70px; }
+
+#row-soft-skills, #row-hard-skills { padding-top: 160px; }
+
+/*End Soft & Hard Skills ---------------------------*/
+
+
+/*Get In Touch -------------------------------*/
+
+#blog{ height: 90vh; background-color: black; }
+
+.title{ padding-top: 50px; color: #f8f8f8; font-size:40px; }
+
+.row { padding-top: 50px; justify-content: center; }
+
+form input.form-control { height: 56px; }
+
+form .form-control { margin-top: 2px; background-color: yellow; }
+
+.col-md-5, .col-md-10 { padding: 5px; }
+
+#btn{ background-color: #f8f8f8; padding: 5px; }
+
+#btn:hover{ background-color: lightgrey; }
+
+/*----------End Get In Touch -------------------------------*/
+
+
+/*------------Footer -------------------------------*/
+
+#footer { background-color: black; color: #f8f8f8; font-size: 25px; }
+
+#social-icons i { padding-top: 20px; padding-left: 25px; color: #f8f8f8; }
+
+#social-icons i:hover { color: yellow; }
+
+ #social-icons i:active { color: gray; }
+
+
+/* Tablet */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    /* Tablet Home*/
+    .animate__animated { font-size: 110px; bottom: 10%; padding-right: 20px; }
+    p { font-size: 20px; }
+    /*Tablet Hard & Soft Skills*/
+    .hard-skills h1 { margin-top: 20px; font-size: 50px; }
+
+    .soft-skills h1 { margin-top: 30px; }
+    
+    .icon-style { width: 150px; height: 150px;  border-radius:27px; margin-bottom: -10px; margin-top: 60px; }
+  
+    .images { height: 150px; width: 150px; border-radius: 26px; padding-bottom: 6px; }
+  
+    .column h3 { font-size: 20px; padding-top: 4px; margin-left: 10px; }
+
+    .column .html-css { margin-left: 50px; }
+
+    #ps { margin-left: -20px; }
+
+   #tw { margin-left: -5px; }
+
+  .column .sub-title { font-size: 20px; margin-left: 20px; }
+
+  #row-soft-skills { padding-top: 40px; padding-left: 150px; }
+  
+  #row-hard-skills { padding-top: 40px; padding-left: 160px; }
+  
+  /* Tablet Get In Touch*/
+  .row { padding-top: 40px; }  
+  
+  .title{ padding-top: 90px; font-size: 55px;}
+  
+  #footer { font-size: 20px; }
+  
+  #social-icons i { padding-top: 20px; padding-left: 20px; }
+  
+}
+
+ /*------Mobile-------*/
+
+ @media screen and (max-width: 400px) {
+/* Mobile Navbar*/
+    .navbar-logo { font-size: 30px; }
+    
+    .navbar .navbar-toggler { font-size: 15px; }
+  
+   .nav-item { font-size: 25px; }
+  
+   .dropdown-item { font-size: 20px; }
+  
+/* Mobile Homepage*/
+  .back-img { height: 90vh; }
+  
+  .animate__animated { font-size: 60px; padding-top: 240px; padding-right: 50px; bottom: 30%; float: right; }
+  
+  .page { padding-top: 30px; height: 100vh; }
+  
+  p { font-size: 17px; padding-right: 13px; }
+  
+/* Mobile Hard & Soft Skills*/
+    .hard-skills h1 { font-size: 25px; padding-top: 20px; }
+
+    .soft-skills h1 { font-size: 25px; padding-top: 20px; }
+  
+    .icon-style { width: 80px; height: 80px; border-radius:27px; margin-bottom: -15px; margin-top: 20px; margin-left: -3px; }
+
+    .soft-skills .icon-style { margin-left: -5px; margin-top: 5px; }
+  
+    .images { height: 80px; width: 80px; border-radius: 26px; padding-bottom: 6px; }
+  
+    .column h3 { font-size: 15px; padding-top: 4px; margin-left: -12px; }
+
+    .column .html-css { margin-left: 15px; }
+
+    #tw { margin-left: -30px; }
+
+    #ps { margin-left: -40px; }
+
+   .column .sub-title { font-size: 15px; margin-left: -10px; }
+  
+   #row-soft-skills { padding-top: 40px; padding-left: 150px; }
+  
+   #row-hard-skills { padding-top: 40px; padding-left: 125px; }
+  
+/* Mobile Get In Touch */
+   .row { padding-top: 30px; }  
+  
+   .title{ padding-top: 40px; font-size: 35px; }
+  
+   #footer { font-size: 20px; }
+  
+   #social-icons i { padding-top: 20px; padding-left: 20px; }
+  
+}
+ 
+
+
