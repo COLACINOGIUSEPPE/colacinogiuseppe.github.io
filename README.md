@@ -38,4 +38,4 @@ To create this project i've used:
 
 # Contact
 
-You can contact me on my email: colacinogiuseppe
+You can contact me on my email: colacinogiuseppe@icloud.com
